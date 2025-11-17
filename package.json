@@ -1,0 +1,25 @@
+{
+  "name": "cse341-project",
+  "version": "1.0.0",
+  "description": "I built a new API with full CRUD operations, validation, and error handling, connected it to a new MongoDB database, and published it on Render.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidinasibu/cse341-project.git"
+  },
+  "author": "Nasibu Saidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidinasibu/cse341-project/issues"
+  },
+  "homepage": "https://github.com/saidinasibu/cse341-project#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0"
+  }
+}

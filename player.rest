@@ -1,0 +1,42 @@
+# Get all players
+GET http://localhost:3000/player
+Accept: application/json
+
+###
+
+# Get a single player by ID
+GET http://localhost:3000/player/67e302dd06e321393c2ec78a
+Accept: application/json
+
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Didier",
+    "lastName": "Drogba",
+    "countryName": "Ivory Coast",
+    "clubName": "Chelsea",
+    "age": 42,
+    "position": "Forward",
+    "goals": 482
+  }
+
+###
+
+# Update a player by ID (partial update)
+PUT http://localhost:3000/player/67e302dd06e321393c2ec78a
+Content-Type: application/json
+
+{
+  "firstName": "Smart",
+  "clubName": "Real Madrid"
+}
+
+###
+
+# Delete a player by ID
+DELETE http://localhost:3000/player/67db44525105ae973fd9b873
+Accept: application/json
