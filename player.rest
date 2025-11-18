@@ -15,15 +15,105 @@ POST http://localhost:3000/player
 Content-Type: application/json
 
  {
-    "firstName": "Didier",
-    "lastName": "Drogba",
-    "countryName": "Ivory Coast",
-    "clubName": "Chelsea",
-    "age": 42,
-    "position": "Forward",
+    "firstName": "Chancell",
+    "lastName": "Mbemba",
+    "countryName": "DRC",
+    "clubName": "Marseille",
+    "age": 38,
+    "position": "Defense",
     "goals": 482
   }
 
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Samuel",
+    "lastName": "Eto'o",
+    "countryName": "Cameroon",
+    "clubName": "Asemillam",
+    "age": 46,
+    "position": "Attack",
+    "goals": 655
+  }
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "countryName": "Argentina",
+    "clubName": "Paris Saint germain",
+    "age": 46,
+    "position": "Attack",
+    "goals": 999
+  }
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Christiano",
+    "lastName": "Ronaldo",
+    "countryName": "Portigal",
+    "clubName": "Aser",
+    "age": 33,
+    "position": "Attack",
+    "goals": 989
+  }
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Tresor",
+    "lastName": "Mputu",
+    "countryName": "DRC",
+    "clubName": "Mazembe",
+    "age": 41,
+    "position": "Attack",
+    "goals": 477
+  }
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Samuel",
+    "lastName": "Kamatuka",
+    "countryName": "Namibia",
+    "clubName": "Ma melody",
+    "age": 31,
+    "position": "Attack",
+    "goals": 211
+  }
+###
+
+# Create a new player
+POST http://localhost:3000/player
+Content-Type: application/json
+
+ {
+    "firstName": "Theo",
+    "lastName": "Bongonda",
+    "countryName": "Drc",
+    "clubName": "Chelsea",
+    "age": 29,
+    "position": "Attack",
+    "goals": 344
+  }
 ###
 
 # Update a player by ID (partial update)

@@ -22,7 +22,90 @@ Content-Type: application/json
     "grade": "B+",
     "email": "timo@example.com"
 }
+###
 
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Zakuani",
+    "lastName": "Malenga",
+    "age": 31,
+    "favoriteSubject": "Biology",
+    "grade": "B+",
+    "email": "zak@example.com"
+}
+###
+
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Rejoyce",
+    "lastName": "Mwenyemali",
+    "age": 31,
+    "favoriteSubject": "Math",
+    "grade": "c+",
+    "email": "rej@example.com"
+}
+###
+
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Moriah",
+    "lastName": "Mwinkeu",
+    "age": 23,
+    "favoriteSubject": "History",
+    "grade": "A+",
+    "email": "moriah@example.com"
+}
+###
+
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Rebecca",
+    "lastName": "Shianga",
+    "age": 24,
+    "favoriteSubject": "History",
+    "grade": "B",
+    "email": "rebecca@example.com"
+}
+###
+
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Rachel",
+    "lastName": "Shilongo",
+    "age": 31,
+    "favoriteSubject": "Technology",
+    "grade": "A",
+    "email": "shilongo@example.com"
+}
+###
+
+# Create multiple or single students
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "firstName": "Ferdinard",
+    "lastName": "Kambere",
+    "age": 31,
+    "favoriteSubject": "Accounting",
+    "grade": "c+",
+    "email": "fer@example.com"
+}
 ###
 
 # Update a student by ID (partial update)
