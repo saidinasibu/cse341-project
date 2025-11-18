@@ -5,7 +5,7 @@ Accept: application/json
 ###
 
 # Get a single student by ID
-GET http://localhost:3000/student/67db3424290fc590c9b06c63
+GET http://localhost:3000/student/691bf8c14e7648eafd14b6d2
 Accept: application/json
 
 ###
@@ -109,7 +109,7 @@ Content-Type: application/json
 ###
 
 # Update a student by ID (partial update)
-PUT http://localhost:3000/student/67db39cd3ceef80d58143435
+PUT http://localhost:3000/student/691bfa6a4e7648eafd14b6d6
 Content-Type: application/json
 
 {
@@ -120,5 +120,5 @@ Content-Type: application/json
 ###
 
 # Delete a student by ID
-DELETE http://localhost:3000/student/67db482da595bbf1e685a7c9
+DELETE http://localhost:3000/student/691bfa104e7648eafd14b6d5
 Accept: application/json
