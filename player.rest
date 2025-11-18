@@ -5,7 +5,7 @@ Accept: application/json
 ###
 
 # Get a single player by ID
-GET http://localhost:3000/player/691bfe404e7648eafd14b6db
+GET http://localhost:3000/player/691c9a7808188f140590d5bf
 Accept: application/json
 
 ###
@@ -117,7 +117,7 @@ Content-Type: application/json
 ###
 
 # Update a player by ID (partial update)
-PUT http://localhost:3000/player/691bfe674e7648eafd14b6dc
+PUT http://localhost:3000/player/691c9aa308188f140590d5c0
 Content-Type: application/json
 
 {
@@ -128,5 +128,5 @@ Content-Type: application/json
 ###
 
 # Delete a player by ID
-DELETE http://localhost:3000/player/691bfe8f4e7648eafd14b6dd
+DELETE http://localhost:3000/player/691c9aca08188f140590d5c1
 Accept: application/json
